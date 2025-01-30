@@ -12,7 +12,9 @@ const config = {
     'src/**/*.{ts,tsx}',
     '!src/app/**',
     '!src/lib/**',
-    '!src/styles/**'
+    '!src/styles/**',
+    '!src/types/**',
+    '!src/**/stories.tsx'
   ],
   collectCoverage: true,
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
