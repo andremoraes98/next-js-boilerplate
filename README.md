@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org) boilerplate project.
 First, create your app using this command:
 
 ```bash
-npx create-next-app@latest --example "https://github.com/andremoraes98/next-boilerplate" [your-project-name]
+npx create-next-app@latest --example "https://github.com/andremoraes98/next-js-boilerplate" [your-project-name]
 ```
 
 And add any project name that you want. After that, run any of these (depends of what package manage you want to use):
