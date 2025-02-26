@@ -1,8 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) boilerplate project.
 
 ## Getting Started
 
-First, run the development server:
+First, create your app using this command:
+
+```bash
+npx create-next-app@latest --example "https://github.com/andremoraes98/next-boilerplate" [your-project-name]
+```
+
+And add any project name that you want. After that, run any of these (depends of what package manage you want to use):
 
 ```bash
 npm run dev
@@ -14,23 +20,24 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+And then, open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Tecnologies
 
-To learn more about Next.js, take a look at the following resources:
+This boilerplait runs into Node 22.13.0 and contains:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- TypeScript (^5);
+- Styled components (^6.1.14);
+- Storybook (^8.5.2);
+- Jest (^29.7.0);
+  - with dom and styled components configuration.
+- React testing library (^16.2.0);
+- Prettier (3.4.2);
+  - with all nexts plugins.
+- Eslint (^9);
+- Lint staged (^15.4.1);
+  - with husky, to run tests, prettier and eslint.
